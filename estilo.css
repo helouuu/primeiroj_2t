@@ -1,12 +1,14 @@
 body {
-  background: #d174ee;
+  background: pink;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
   position: absolute;
-  background: #db5db5;
+  background: grey;
   width: 200px;
   height: 200px;
   right: 0px;
@@ -14,7 +16,7 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background:#00F693;
+  background: rgb(44, 241, 26);
   width: 200px;
   height: 200px;
   right: 0;
@@ -23,7 +25,7 @@ h1 {
 
 .caixa3 {
   position: absolute;
-  background: #7e0674;
+  background: red;
   width: 200px;
   height: 200px;
   right: 205px;
@@ -33,7 +35,7 @@ h1 {
    position: absolute;
    width: 100%;
    height: 45px;
-   background: #ecbfe9;
+   background: rgb(157, 170, 187);
    top: 0;
    left: 0;
 }
@@ -58,31 +60,53 @@ li a:hover {
   color: rgb(255, 255, 255);
   background: black;
 }
-#puglindo {
-  widht: 10%
+#urso {
+   width: 10%;
 }
-.caixapuglindo {
+.caixaUrso {
+    position: absolute;
+    top: 45px;
+    background: yellow;
+    width: 90%;
+    height: 165px;
+    margin: 20px;
+    border-color: blueviolet;
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.caixaUrso2 {
   position: absolute;
-  top: 45px;
-  background:#00F693;
-  width: 90%;
+  top: 0px;
+  right: 0;
+  width: 300px;
   height: 165px;
-  margin: 20px;
-  border-color: #7e0674;
-  border-width: 20px;
-  border style: ;
-}  
+  display: flex;
+  justify-content: end;
+}
 .rodape {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 35px;
-  background-color: rgb(1, 7, 7);
-  color: #b10d4c;
+  background: black;
+  color: aliceblue;
   display: flex;
   justify-content: center;
-} 
+}
 .conteudo {
+   position: absolute;
+   top: 45px;
+}
+#aguia {
+   width: 100%;
+}
+.aguiaLogo {
   position: absolute;
-  top: 45px;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
 }
